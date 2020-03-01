@@ -14,12 +14,12 @@
   height: 0;
 
 
-  &:hover{
-    animation: wiggle  infinite;
+  &:hover {
+    cursor: pointer;
+    animation: wiggle infinite;
     animation-duration: 0.5s;
   }
 }
-
 
 
 @keyframes wiggle {
@@ -33,7 +33,7 @@
     transform: rotate(0deg);
   }
 
-  60%{
+  60% {
     transform: rotate(-6deg);
   }
   100% {

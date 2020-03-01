@@ -1,5 +1,5 @@
-export const SectionActionTypes = {
-
+const SectionActionTypes = {
+    drag:'DRAG'
 };
 
-
+export default SectionActionTypes;

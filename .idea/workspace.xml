@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28f4c5be-8143-42ad-8eb8-42bf1415981f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell/cell.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cell/cell.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell/cell.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cell/cell.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/container/container.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/container.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section/section.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/section.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/section/section.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/section/section.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/section/section.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/section/section.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/section/section.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/section/section.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +49,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.container.component.jsx">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="container.component.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/container/container.component.jsx" working-dir="$PROJECT_DIR$/src/components/container">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -62,6 +66,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.container.component.jsx" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,7 +84,7 @@
       <updated>1582898740402</updated>
       <workItem from="1582898742805" duration="210000" />
       <workItem from="1582898981798" duration="3867000" />
-      <workItem from="1582906527442" duration="22667000" />
+      <workItem from="1582906527442" duration="35838000" />
     </task>
     <servers />
   </component>
@@ -95,6 +104,70 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1582899765564" />
+    <state width="1366" height="202" key="GridCell.Tab.0.bottom" timestamp="1583096548936">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583096548936" />
+    <state width="1366" height="202" key="GridCell.Tab.0.center" timestamp="1583096548936">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583096548936" />
+    <state width="1366" height="202" key="GridCell.Tab.0.left" timestamp="1583096548936">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583096548936" />
+    <state width="1366" height="202" key="GridCell.Tab.0.right" timestamp="1583096548936">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583096548936" />
+    <state width="1366" height="202" key="GridCell.Tab.1.bottom" timestamp="1583096548937">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583096548937" />
+    <state width="1366" height="202" key="GridCell.Tab.1.center" timestamp="1583096548937">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1583096548937" />
+    <state width="1366" height="202" key="GridCell.Tab.1.left" timestamp="1583096548937">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1583096548936" />
+    <state width="1366" height="202" key="GridCell.Tab.1.right" timestamp="1583096548937">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1583096548937" />
+    <state width="1366" height="202" key="GridCell.Tab.2.bottom" timestamp="1583096548938">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.2.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583096548938" />
+    <state width="1366" height="202" key="GridCell.Tab.2.center" timestamp="1583096548937">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.2.center/0.27.1366.741@0.27.1366.741" timestamp="1583096548937" />
+    <state width="1366" height="202" key="GridCell.Tab.2.left" timestamp="1583096548937">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.2.left/0.27.1366.741@0.27.1366.741" timestamp="1583096548937" />
+    <state width="1366" height="202" key="GridCell.Tab.2.right" timestamp="1583096548938">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1583096548938" />
+    <state width="1366" height="202" key="GridCell.Tab.3.bottom" timestamp="1583096548939">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.3.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583096548939" />
+    <state width="1366" height="202" key="GridCell.Tab.3.center" timestamp="1583096548938">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.3.center/0.27.1366.741@0.27.1366.741" timestamp="1583096548938" />
+    <state width="1366" height="202" key="GridCell.Tab.3.left" timestamp="1583096548938">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.3.left/0.27.1366.741@0.27.1366.741" timestamp="1583096548938" />
+    <state width="1366" height="202" key="GridCell.Tab.3.right" timestamp="1583096548939">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.3.right/0.27.1366.741@0.27.1366.741" timestamp="1583096548939" />
     <state x="172" y="31" key="SettingsEditor" timestamp="1582899297448">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
