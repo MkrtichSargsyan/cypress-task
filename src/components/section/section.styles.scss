@@ -1,0 +1,23 @@
+.section {
+  background-color: #DEDEDE;
+  width: 220px;
+  min-height: 310px;
+  transition: background-color 0.5s ease;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 9px;
+  border: 1px solid #DEDEDE;
+  align-content: flex-start;
+
+  &:hover {
+    background-color: #ECECEC;
+    border-right: 1px dashed #666666;
+    border-left: 1px dashed #666666;
+  }
+}
+
+.hasBorder {
+  border-right: 1px solid #A1A1A1;
+  border-left: 1px solid #A1A1A1;
+}
