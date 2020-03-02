@@ -29,7 +29,6 @@ const drag = e => {
 
 const stopDrag = e => {
     e.stopPropagation();
-
 };
 
 export default Cell;

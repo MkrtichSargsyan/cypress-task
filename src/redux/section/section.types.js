@@ -1,5 +1,6 @@
 const SectionActionTypes = {
-    drag:'DRAG'
+    drag:'DRAG',
+    addCell:"ADD_CELL",
 };
 
 export default SectionActionTypes;

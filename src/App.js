@@ -4,7 +4,6 @@ import './App.css';
 import Container from "./components/container/container.component";
 import AddCell from "./components/add-cell/add-cell.component";
 
-
 class App extends Component {
 
     render() {

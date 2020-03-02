@@ -19,7 +19,18 @@ const INITIAL_STATE = {
 };
 
 const sectionReducer = (state = INITIAL_STATE, action) => {
+
     switch (action.type) {
+
+        case SectionActionTypes.addCell: {
+
+            const newState = {...state};
+            newState.sections[0].cells.push(action.payload);
+
+            return {
+                ...newState,
+            }
+        }
 
         case SectionActionTypes.drag : {
 
