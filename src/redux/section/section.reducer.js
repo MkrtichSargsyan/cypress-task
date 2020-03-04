@@ -35,13 +35,16 @@ const sectionReducer = (state = INITIAL_STATE, action) => {
         case SectionActionTypes.drag : {
 
             const {targetSectionNumber, dataNumber, selectedSectionNumber} = action.payload;
-
             const newState = {...state};
-            const selectedSection = newState.sections.find(sect => sect.sectionNumber === selectedSectionNumber);
-            const data = selectedSection.cells[dataNumber];
+            let selectedSection = newState.sections.find(sect => sect.sectionNumber === selectedSectionNumber);
             const targetSection = newState.sections.find(sect => sect.sectionNumber === targetSectionNumber);
-            targetSection.cells.push(data);
-            selectedSection.cells.splice(dataNumber, 1);
+
+            if (selectedSection === targetSection) {
+                return {...newState}
+            }
+
+            targetSection.cells.push(dataNumber);
+            selectedSection.cells = selectedSection.cells.filter(it => it !== dataNumber);
 
             return {
                 ...newState,

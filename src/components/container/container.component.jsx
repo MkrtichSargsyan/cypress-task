@@ -16,7 +16,6 @@ const Container = ({sectionItems, dropAction}) => {
                     key={i}
                     cells={sectionItem.cells}
                     hasBorder={sectionItem.hasBorder}
-
                 />
             ))}
         </div>

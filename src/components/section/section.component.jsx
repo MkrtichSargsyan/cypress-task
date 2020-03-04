@@ -2,6 +2,7 @@ import React from 'react';
 import './section.styles.scss';
 import Cell from "../cell/cell.component";
 
+
 const Section = ({hasBorder, cells, drop, sectionNumber}) => {
     return (
         <div
@@ -13,7 +14,7 @@ const Section = ({hasBorder, cells, drop, sectionNumber}) => {
             {
                 cells.map((cellName, i) =>
                     <Cell
-                        key={i} id={i}>{cellName}
+                        key={i} id={cellName}>{cellName}
                     </Cell>)
             }
         </div>
@@ -23,5 +24,6 @@ const Section = ({hasBorder, cells, drop, sectionNumber}) => {
 const allowDrop = e => {
     e.preventDefault();
 };
+
 
 export default Section;

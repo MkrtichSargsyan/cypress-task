@@ -12,8 +12,10 @@ export const dropAction = e => ({
 });
 
 const drop = (e) => {
+    console.log(e.target)
+    e.preventDefault();
     return {
-        targetSectionNumber: e.target.id,
+        targetSectionNumber:e.target.id,
         dataNumber: e.dataTransfer.getData("selectedCell"),
         selectedSectionNumber: e.dataTransfer.getData('selectedSection'),
     }
